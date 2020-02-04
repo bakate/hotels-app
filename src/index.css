@@ -107,19 +107,23 @@ Buttons
   cursor: pointer;
   font-size: 0.8rem;
   background: transparent;
+  border-radius: 10px;
 }
 .btn:hover {
   background: var(--primaryColor);
   color: var(--mainWhite);
+  border-radius: 10px;
 }
 .btn-white {
   background: transparent;
   color: var(--mainWhite);
   border-color: var(--mainWhite);
+  border-radius: 10px;
 }
 .btn-white:hover {
   background: var(--mainWhite);
   color: var(--primaryColor);
+  border-radius: 10px;
 }
 .btn-primary {
   background: var(--primaryColor);
