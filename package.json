@@ -6,8 +6,8 @@
   "author": "Bakate BA ",
   "license": "MIT",
   "scripts": {
-    "start": "parcel ./src/index.html --open",
-    "build": "parcel build ./src/index.html --out-dir production",
+    "start": "parcel ./public/index.html --open",
+    "build": "parcel build ./public/index.html --out-dir production",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "jest",
